@@ -1,6 +1,5 @@
 const nomeHeroi = "Cremubi"
-let xp = 0
-var nivel = ""
+let xp = 4999
 
 if (xp < 1000){
     var nivel = "Ferro"
@@ -27,4 +26,4 @@ else {
     var nivel = "Radiante"
 }
 
-console.log("O herói de nome " + nomeHeroi + " está no nível de " + nivel + ".")
+console.log("O herói chamado " + nomeHeroi + " está no nível " + nivel + " com " + xp + " pontos de experiência.")
