@@ -1,6 +1,6 @@
 const nomeHeroi = "Cremubi"
-const nivel = ""
-let xp = 4999
+let nivel = ""
+const xp = 4999
 
 if (xp < 1000){
     nivel = "Ferro"
